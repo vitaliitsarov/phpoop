@@ -20,4 +20,4 @@ $message = new Message();
 echo $message->formatMessage('Hello World'); // prints '<i>Hello World</i>'
  
 $message = new BoldMessage();
-echo $message->formatMessage('Hello World', 30); // prints '<b>Hello World</b>'
+echo $message->formatMessage('Hello World'); // prints '<b>Hello World</b>'
