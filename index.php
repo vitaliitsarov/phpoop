@@ -10,7 +10,7 @@ class Message
 
 class BoldMessage extends Message
 {
-    public function formatMessage($message, $age)
+    public function formatMessage($message)
     {
         return "<b>{$message} - {$age}</b>";
     }
